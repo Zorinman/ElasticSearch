@@ -1,5 +1,4 @@
 
-我把 `settings` 放到了 **index 这一层**，并补充了它和 MySQL 的对比边界：它可以类比为“表级配置/存储配置的一部分”，但没有完全一一对应关系。
 
 # MySQL 与 Elasticsearch 的结构类比
 
@@ -306,7 +305,7 @@ users 索引
 刷新间隔：1 秒
 ```
 
-## 6. settings 具体如何体现？
+## 5. settings 具体如何体现？
 
 settings 主要体现在创建索引和查看索引配置时。
 
@@ -350,7 +349,7 @@ GET users/_settings
 
 
 
-## 8. Elasticsearch 中完整层级
+## 6. Elasticsearch 中完整层级
 
 从逻辑角度看：
 
@@ -404,7 +403,7 @@ field：
 
 ---
 
-## 9. mapping、settings、documents 的具体查看方式
+## 7. mapping、settings、documents 的具体查看方式
 
 MySQL 里：
 
@@ -453,7 +452,7 @@ GET users/_search
 
 ---
 
-## 10. 最核心总结
+## 8. 核心总结
 
 最简单的类比是：
 
